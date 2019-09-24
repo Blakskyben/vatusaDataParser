@@ -22,13 +22,13 @@ app.get("/data/allUsers",(req,res)=>{
 		
 		}
 		res.send(JSON.stringify(aircraftData));
-		//Next step - Give each Pilot his/her own JSON "block".
+		//Next step - Give each Pilot his/her own JSON "block" by CID (EX: ""1441075":{name:"Ben Levy"}"). - Thanks to Mr. Web Master for that suggestion!
 	});
 });
 
 
 
 
-
+//MAKE AN API WRAPPER!
 
 app.listen(3010);
